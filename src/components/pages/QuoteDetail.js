@@ -27,7 +27,7 @@ const QuoteDetail = () => {
                     </Link>
                 </div>
             </Route>
-            <Route path={`${match.path}`}>
+            <Route path={`${match.path}/comments`}>
                 <Comments/>
             </Route>
         </Fragment>
